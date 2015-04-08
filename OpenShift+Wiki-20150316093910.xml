@@ -1,0 +1,118 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.6/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.6/ http://www.mediawiki.org/xml/export-0.6.xsd" version="0.6" xml:lang="en">
+  <siteinfo>
+    <sitename>OpenShift Wiki</sitename>
+    <base>http://mediawiki-arao.itos.redhat.com/index.php/Main_Page</base>
+    <generator>MediaWiki 1.19.15</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">OpenShift Wiki</namespace>
+      <namespace key="5" case="first-letter">OpenShift Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Gluster File System Documentation</title>
+    <ns>0</ns>
+    <id>26</id>
+      <sha1>ktwaelg9a0ib7qrh8p74gq116955buo</sha1>
+    <revision>
+      <id>445</id>
+      <timestamp>2015-03-06T05:55:18Z</timestamp>
+      <contributor>
+        <username>Schandra</username>
+        <id>7</id>
+      </contributor>
+      <minor/>
+      <text xml:space="preserve" bytes="3684">== Welcome to GlusterFS Documentation ==
+
+
+
+GlusterFS is a '''distributed file system''' capable of scaling to several petabytes (actually, 72 brontobytes!) and handling thousands of clients simultaneously. It lets you build a scalable networked storage using pretty much any common hardware.&lt;br /&gt; It is easy to start small and add more storage later.
+GlusterFS combines blocks of storage over the network into a single, large storage pool that is served to client appliances. Gluster can deliver '''exceptional performance''' for diverse workloads.&lt;br /&gt;
+GlusterFS is '''free and open source software''' enabling people like you to build data storage with high performance and great value, for a variety of demanding applications.
+{| 
+|- style=&quot;vertical align:Left;&quot;
+| style=&quot;width:600px; text-align:center;&quot; | [[File:gluster-logo.jpg]]  
+|| 
+'''''Attributes of GlusterFS include:'''''&lt;br /&gt;
+* Scalability and Performance
+* High Availability
+* Global Namespace
+* Elastic Hash Algorithm
+* Elastic Volume Manager
+* Standards Based
+----
+&lt;br /&gt;
+===GlusterFS : [[Then, Now, In The Future]]===
+|}
+----
+{| style=&quot;vertical align:Left;&quot;
+|- 
+| style=&quot;width:600px; &quot; | 
+====Terminologies====
+&lt;p&gt;   Glance through the [[GlusterFS_Terminologies|terminologies]].                           &lt;/p&gt;
+====Architecture:====
+&lt;p&gt;   See the [[GlusterFS Architecture]] to understand Component internals                  &lt;/p&gt;
+||
+|style=&quot;width:600px; text-align:left;&quot; |&lt;br /&gt;
+
+====Additional Resources====
+=====Presentations:=====
+&lt;p&gt;   [http://www.gluster.org/community/documentation/index.php/Presentations Presentations]: Slides and videos from public talks about GlusterFS.&lt;/p&gt;
+
+=====Blogs=====
+&lt;p&gt;   '''''[http://blog.gluster.org/blog/ Read blogs]''''' written by Gluster Experts! &lt;/p&gt;
+|}
+----
+
+=== Getting Started ===
+New here? The Quick start Guide will get you going! Starting from zero, we'll explain the system requirements and walk you through the installation and configuration. Once you have read through and completed this document, you will have a basic understanding of the concepts and requirements, and your brand new Gluster is ready for use!
+&lt;br /&gt;
+&lt;br /&gt;
+[[QuickStart|Click here]] to get started!!&lt;br /&gt;
+
+&lt;!-- Or read the brief [[file:user-guide.pdf|User Guide PDF]] --&gt;
+----
+
+{| class=&quot;wikitable&quot;
+&lt;br /&gt;
+!'''New user''' !! '''Developer guide''' !! '''Administrator's guide'''
+|- style=&quot;vertical align:middle;&quot;
+| style=&quot;height:75px; width:500px; text-align:center;&quot; |  [[Gluster_new_user_docs| Understand components of GlusterFS]] &lt;br /&gt;   [[GlusterFS_Documentation|A quick Installation Guide]]&lt;br /&gt; A very Helpful [[Concise_HowTo|HowTo guide]]! &lt;br /&gt; [[Basic_troubleshooting_guide|Basic troubleshooting guide]] || style=&quot;height:75px; width:500px; text-align:center;&quot;|[[All that Developers need to know]]&lt;br /&gt; [[Gluster_Developers_Docs|Developers Guide]] &lt;br /&gt; Interested in extending GlusterFS? [[Extend GlusterFS As A Developer|Learn More]] &lt;br /&gt; [https://forge.gluster.org/ GLUSTERFORGE]&lt;br /&gt; [[Backport Wishlist]]   ||   style=&quot;height:75px; width:500px; text-align:center;&quot; |    [[GlusterFS_Administration_Guide|Administration guide]] &lt;br /&gt; [[Gluster_3.1x_Documentation]] &lt;br /&gt; A Concise [[Concise_HowTo|HowTo guide]]! &lt;br /&gt; [[GlusterFS_Setup_install]]&lt;br /&gt; [[Operating Versions]]
+|}
+&lt;br /&gt;
+----
+
+{|
+|-
+|style=&quot;width:600px; text-align:left;&quot; |
+
+=== Documentation Archive ===
+*[[Archived Docs|Archived Documentation]] (everything prior to 3.3 betas) resides here.
+||
+|style=&quot;width:600px; text-align:left;&quot; |
+&lt;br /&gt;
+
+===GlusterFS TIPS===
+*[[GlusterFS_Contributing|Contributing]]
+*[[GlusterFS_Networking_Performance| Networking Performance]]
+*[[GlusterFS_Security|Security]]
+|}</text>
+    </revision>
+  </page>
+</mediawiki>
