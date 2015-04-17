@@ -4,12 +4,12 @@ I am currently in the process of building an AWS Image with this installed, howe
 
 This document assumes you already have GlusterFS with UFO installed, 3.3.1-11 or later, and are using the instructions here:
 
-	[`http://www.gluster.org/2012/09/howto-using-ufo-swift-a-quick-and-dirty-setup-guide/`](http://www.gluster.org/2012/09/howto-using-ufo-swift-a-quick-and-dirty-setup-guide/)
+[`http://www.gluster.org/2012/09/howto-using-ufo-swift-a-quick-and-dirty-setup-guide/`](http://www.gluster.org/2012/09/howto-using-ufo-swift-a-quick-and-dirty-setup-guide/)
 
 These docs are largely derived from:
 
-	[`http://fedoraproject.org/wiki/Getting_started_with_OpenStack_on_Fedora_17#Initial_Keystone_setup`](http://fedoraproject.org/wiki/Getting_started_with_OpenStack_on_Fedora_17#Initial_Keystone_setup)
-	[`http://blog.jebpages.com/archives/fedora-17-openstack-and-gluster-3-3/`](http://blog.jebpages.com/archives/fedora-17-openstack-and-gluster-3-3/)
+[`http://fedoraproject.org/wiki/Getting_started_with_OpenStack_on_Fedora_17#Initial_Keystone_setup`](http://fedoraproject.org/wiki/Getting_started_with_OpenStack_on_Fedora_17#Initial_Keystone_setup)
+[`http://blog.jebpages.com/archives/fedora-17-openstack-and-gluster-3-3/`](http://blog.jebpages.com/archives/fedora-17-openstack-and-gluster-3-3/)
 
 Add the RDO Openstack Grizzly and Epel repos:
 
