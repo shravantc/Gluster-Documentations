@@ -30,7 +30,7 @@ compliant nature of glusterfs integrate the workflow for ingestion and
 analytics access patterns.
 
 The Gluster Connector for Hadoop will be available in [GlusterFS 3.3
-beta](3.3beta "wikilink").
+beta](https://github.com/shravantc/Gluster-Documentations/blob/master/Administrative-Guide/How_To_Guide/gluster3.3Beta.md).
 
 ### Resources
 
@@ -39,6 +39,6 @@ beta](3.3beta "wikilink").
     Betas](http://community.gluster.org/t/3-3-beta/) and Hadoop
 -   [Download GlusterFS 3.3](http://www.gluster.org/download/) with the
     Hadoop connector
--   [GlusterFS 3.3 Beta Resource Page](3.3beta "wikilink")
+-   [GlusterFS 3.3 Beta Resource Page](https://github.com/shravantc/Gluster-Documentations/blob/master/Administrative-Guide/How_To_Guide/gluster3.3Beta.md)
 -   Download GlusterFileSystem (the hadoop plugin) :
     <http://ec2-54-243-59-213.compute-1.amazonaws.com/archiva/browse/org.apache.hadoop.fs.glusterfs/glusterfs-hadoop>
