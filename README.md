@@ -5,7 +5,9 @@
     install guides for various Operating systems
 
 **Documentations**
-    Contains Administrator(User) Guides Contains Developer Guides Contains Quick start Guides
+    Contains Administrator(User) Guides
+    Contains Developer Guides
+    Contains Quick start Guides
 
 **Use cases**
     Contains detailed use cases 
