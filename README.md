@@ -1,6 +1,6 @@
 # Gluster-Docs
 
-**Demo Documentation for Gluster Download/Install Guide**
+**Download/Install Guide**
 
 -  install guides for various Operating systems
 
