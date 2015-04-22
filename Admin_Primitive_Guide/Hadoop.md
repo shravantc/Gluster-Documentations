@@ -29,3 +29,14 @@ Storage :
 ##Installing, and Configuring Hadoop Compatible Storage
 
 See the detailed instruction set at https://forge.gluster.org/hadoop/pages/ConfiguringHadoop2
+
+### Resources
+
+-   [Apache Hadoop](http://hadoop.apache.org/) project home
+-   [Community Q&A for GlusterFS
+    Betas](http://community.gluster.org/t/3-3-beta/) and Hadoop
+-   [Download GlusterFS 3.3](http://www.gluster.org/download/) with the
+    Hadoop connector
+-   [GlusterFS 3.3 Beta Resource Page](https://github.com/shravantc/Gluster-Documentations/blob/master/Administrative-Guide/How_To_Guide/gluster3.3Beta.md)
+-   Download GlusterFileSystem (the hadoop plugin) :
+    <http://ec2-54-243-59-213.compute-1.amazonaws.com/archiva/browse/org.apache.hadoop.fs.glusterfs/glusterfs-hadoop>
