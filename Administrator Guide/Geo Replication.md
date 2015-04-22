@@ -67,43 +67,27 @@ Geo-replication, including the following:
 You can configure Geo-replication to mirror data over a Local Area
 Network.
 
-<<<<<<< HEAD
 ![ Geo-replication over LAN ][img1]
-=======
-![ Geo-replication over LAN ][Geo-replication over LAN]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
 
 **Geo-replication over WAN**
 
 You can configure Geo-replication to replicate data over a Wide Area
 Network.
 
-<<<<<<< HEAD
 ![ Geo-replication over WAN ][img2]
-=======
-![ Geo-replication over WAN ][Geo-replication over WAN]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
 
 **Geo-replication over Internet**
 
 You can configure Geo-replication to mirror data over the Internet.
 
-<<<<<<< HEAD
 ![ Geo-replication over Internet ][img3]
-=======
-![ Geo-replication over Internet ][Geo-replication over Internet]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
 
 **Multi-site cascading Geo-replication**
 
 You can configure Geo-replication to mirror data in a cascading fashion
 across multiple sites.
 
-<<<<<<< HEAD
 ![ Multi-site cascading Geo-replication ][img4]
-=======
-![ Multi-site cascading Geo-replication ][Multi-site cascading Geo-replication]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
 
 ##Geo-replication Deployment Overview
 
@@ -691,14 +675,7 @@ machine / chroot/container type solution) by the administrator to run
 the geo-replication slave in it. Enhancement in this regard will be
 available in follow-up minor release.
 
-<<<<<<< HEAD
-  [img1]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_LAN.png
-  [img2]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_WAN.png
-  [img3]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep03_Internet.png
-  [img4]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep04_Cascading.png
-=======
-  [ Geo-replication over LAN ]: ../images/Geo-Rep_LAN.png
-  [ Geo-replication over WAN ]: ../images/Geo-Rep_WAN.png
-  [ Geo-replication over Internet ]: ../images/Geo-Rep03_Internet.png
-  [ Multi-site cascading Geo-replication ]: ../images/Geo-Rep04_Cascading.png
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
+[img1]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_LAN.png
+[img2]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_WAN.png
+[img3]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep03_Internet.png
+[img4]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep04_Cascading.png
