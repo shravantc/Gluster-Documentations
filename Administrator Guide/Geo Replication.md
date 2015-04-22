@@ -675,7 +675,7 @@ machine / chroot/container type solution) by the administrator to run
 the geo-replication slave in it. Enhancement in this regard will be
 available in follow-up minor release.
 
-  [img1]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_LAN.png
-  [img2]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_WAN.png
-  [img3]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep03_Internet.png
-  [img4]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep04_Cascading.png
+[img1]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_LAN.png
+[img2]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_WAN.png
+[img3]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep03_Internet.png
+[img4]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep04_Cascading.png
