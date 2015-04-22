@@ -67,27 +67,27 @@ Geo-replication, including the following:
 You can configure Geo-replication to mirror data over a Local Area
 Network.
 
-![ Geo-replication over LAN ][]
+![ Geo-replication over LAN ][Geo-replication over LAN]
 
 **Geo-replication over WAN**
 
 You can configure Geo-replication to replicate data over a Wide Area
 Network.
 
-![ Geo-replication over WAN ][]
+![ Geo-replication over WAN ][Geo-replication over WAN]
 
 **Geo-replication over Internet**
 
 You can configure Geo-replication to mirror data over the Internet.
 
-![ Geo-replication over Internet ][]
+![ Geo-replication over Internet ][Geo-replication over Internet]
 
 **Multi-site cascading Geo-replication**
 
 You can configure Geo-replication to mirror data in a cascading fashion
 across multiple sites.
 
-![ Multi-site cascading Geo-replication ][]
+![ Multi-site cascading Geo-replication ][Multi-site cascading Geo-replication]
 
 ##Geo-replication Deployment Overview
 
