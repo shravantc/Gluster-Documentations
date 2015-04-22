@@ -67,27 +67,27 @@ Geo-replication, including the following:
 You can configure Geo-replication to mirror data over a Local Area
 Network.
 
-![ Geo-replication over LAN ][]
+![ Geo-replication over LAN ][img1]
 
 **Geo-replication over WAN**
 
 You can configure Geo-replication to replicate data over a Wide Area
 Network.
 
-![ Geo-replication over WAN ][]
+![ Geo-replication over WAN ][img2]
 
 **Geo-replication over Internet**
 
 You can configure Geo-replication to mirror data over the Internet.
 
-![ Geo-replication over Internet ][]
+![ Geo-replication over Internet ][img3]
 
 **Multi-site cascading Geo-replication**
 
 You can configure Geo-replication to mirror data in a cascading fashion
 across multiple sites.
 
-![ Multi-site cascading Geo-replication ][]
+![ Multi-site cascading Geo-replication ][img4]
 
 ##Geo-replication Deployment Overview
 
@@ -675,7 +675,7 @@ machine / chroot/container type solution) by the administrator to run
 the geo-replication slave in it. Enhancement in this regard will be
 available in follow-up minor release.
 
-  [ Geo-replication over LAN ]: ../images/Geo-Rep_LAN.png
-  [ Geo-replication over WAN ]: ../images/Geo-Rep_WAN.png
-  [ Geo-replication over Internet ]: ../images/Geo-Rep03_Internet.png
-  [ Multi-site cascading Geo-replication ]: ../images/Geo-Rep04_Cascading.png
+  [img1]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_LAN.png
+  [img2]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_WAN.png
+  [img3]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep03_Internet.png
+  [img4]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep04_Cascading.png
