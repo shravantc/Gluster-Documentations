@@ -68,19 +68,6 @@ You can configure Geo-replication to mirror data over a Local Area
 Network.
 
 ![ Geo-replication over LAN ][img1]
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-![ Geo-replication over LAN ][img1]
-=======
-![ Geo-replication over LAN ][Geo-replication over LAN]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
->>>>>>> 121446704f57eeadacb974c3b90580b7473f7e3d
-=======
->>>>>>> d512baca1ca0f597f9c60f89ab7b5a5f278c7580
->>>>>>> 363286f74a5295edc92b83a02b7ab2c96420eb90
 
 **Geo-replication over WAN**
 
@@ -88,38 +75,13 @@ You can configure Geo-replication to replicate data over a Wide Area
 Network.
 
 ![ Geo-replication over WAN ][img2]
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-![ Geo-replication over WAN ][img2]
-=======
-![ Geo-replication over WAN ][Geo-replication over WAN]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
->>>>>>> 121446704f57eeadacb974c3b90580b7473f7e3d
-=======
->>>>>>> d512baca1ca0f597f9c60f89ab7b5a5f278c7580
->>>>>>> 363286f74a5295edc92b83a02b7ab2c96420eb90
+
 
 **Geo-replication over Internet**
 
 You can configure Geo-replication to mirror data over the Internet.
 
 ![ Geo-replication over Internet ][img3]
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-![ Geo-replication over Internet ][img3]
-=======
-![ Geo-replication over Internet ][Geo-replication over Internet]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
->>>>>>> 121446704f57eeadacb974c3b90580b7473f7e3d
-=======
->>>>>>> d512baca1ca0f597f9c60f89ab7b5a5f278c7580
->>>>>>> 363286f74a5295edc92b83a02b7ab2c96420eb90
 
 **Multi-site cascading Geo-replication**
 
@@ -127,19 +89,6 @@ You can configure Geo-replication to mirror data in a cascading fashion
 across multiple sites.
 
 ![ Multi-site cascading Geo-replication ][img4]
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-![ Multi-site cascading Geo-replication ][img4]
-=======
-![ Multi-site cascading Geo-replication ][Multi-site cascading Geo-replication]
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
->>>>>>> 121446704f57eeadacb974c3b90580b7473f7e3d
-=======
->>>>>>> d512baca1ca0f597f9c60f89ab7b5a5f278c7580
->>>>>>> 363286f74a5295edc92b83a02b7ab2c96420eb90
 
 ##Geo-replication Deployment Overview
 
@@ -314,8 +263,8 @@ file(`/etc/glusterfs/glusterd.vol`)
 
     where slavevol is the Slave Volume name
 
-    If you host multiple slave volumes on Slave, for each of them and add the following options to the
-volfile using,
+    If you host multiple slave volumes on Slave, for each of them and add the following options
+to the volfile using,
 
     ```sh
     gluster system:: execute mountbroker user geoaccount2 slavevol2
@@ -338,7 +287,8 @@ For example, to geoaccount.
 following command on the master node:
 
     ```sh
-    gluster volume geo-replication <master_volume> <mountbroker_user>@<slave_host>::<slave_volume> create push-pem [force]
+    gluster volume geo-replication <master_volume> <mountbroker_user>@<slave_host>::<slave_volume>
+    create push-pem [force]
     ```
 
 9.  In the slavenode, which is used to create relationship, run `/usr/libexec/glusterfs/set_geo_rep_pem_keys.sh`
@@ -727,33 +677,7 @@ machine / chroot/container type solution) by the administrator to run
 the geo-replication slave in it. Enhancement in this regard will be
 available in follow-up minor release.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d512baca1ca0f597f9c60f89ab7b5a5f278c7580
->>>>>>> 363286f74a5295edc92b83a02b7ab2c96420eb90
 [img1]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_LAN.png
 [img2]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_WAN.png
 [img3]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep03_Internet.png
 [img4]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep04_Cascading.png
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  [img1]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_LAN.png
-  [img2]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep_WAN.png
-  [img3]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep03_Internet.png
-  [img4]: https://github.com/shravantc/Gluster-Documentations/tree/master/images/Geo-Rep04_Cascading.png
-=======
-  [ Geo-replication over LAN ]: ../images/Geo-Rep_LAN.png
-  [ Geo-replication over WAN ]: ../images/Geo-Rep_WAN.png
-  [ Geo-replication over Internet ]: ../images/Geo-Rep03_Internet.png
-  [ Multi-site cascading Geo-replication ]: ../images/Geo-Rep04_Cascading.png
->>>>>>> 8f3171379ebe05e744d3ac503774c1c57be75f2a
->>>>>>> 121446704f57eeadacb974c3b90580b7473f7e3d
-=======
->>>>>>> d512baca1ca0f597f9c60f89ab7b5a5f278c7580
->>>>>>> 363286f74a5295edc92b83a02b7ab2c96420eb90
